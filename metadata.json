@@ -1,0 +1,6 @@
+{
+  "name": "Amplify Google Setup Gids",
+  "description": "Guide interactif pas-à-pas pour configurer Google Business Profile, Analytics, Search Console et Google Ads pour les petites entreprises.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

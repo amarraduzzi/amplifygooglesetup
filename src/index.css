@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amplify-navy: #0F2A4A;
+  --color-amplify-navy-dark: #09192C;
+  --color-amplify-navy-light: #1A3E68;
+  --color-amplify-navy-50: #F1F5F9;
+  --color-amplify-navy-100: #E2E8F0;
+  --color-amplify-navy-200: #CBD5E1;
+  --color-amplify-navy-muted: #475569;
+  
+  --color-amplify-green: #22A366;
+  --color-amplify-green-hover: #1B8C55;
+  --color-amplify-green-dark: #146B41;
+  --color-amplify-green-50: #F0FDF4;
+  --color-amplify-green-100: #DCFCE7;
+  --color-amplify-green-200: #BBF7D0;
+  
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-arabic: "Cairo", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+
+[dir="rtl"] {
+  font-family: "Cairo", "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Custom smooth transitions and clean focus rings */
+button, input, a {
+  outline: none;
+}
+
+button:focus-visible, a:focus-visible {
+  box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #22A366;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
